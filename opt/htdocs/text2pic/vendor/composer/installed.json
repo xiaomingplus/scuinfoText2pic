@@ -1,0 +1,54 @@
+[
+    {
+        "name": "dsgygb/text2pic",
+        "version": "v1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dsgygb/text2pic.git",
+            "reference": "80fcd9b86b292150830981deb30e1ae7a8738b1e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dsgygb/text2pic/zipball/80fcd9b86b292150830981deb30e1ae7a8738b1e",
+            "reference": "80fcd9b86b292150830981deb30e1ae7a8738b1e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2015-10-01 07:32:16",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Text2pic\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "杨国宝",
+                "email": "dsgygb@126.com",
+                "homepage": "http://www.yangguobao.cn",
+                "role": "Developer"
+            }
+        ],
+        "description": "文字生成图片,生成长微博,text generate picture",
+        "homepage": "https://github.com/dsgygb/text2pic",
+        "keywords": [
+            "generate picture",
+            "text2pic",
+            "文字生成图片"
+        ]
+    }
+]

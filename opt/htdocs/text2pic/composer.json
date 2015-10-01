@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dsgygb/text2pic": "~1.2"
+    }
+}
