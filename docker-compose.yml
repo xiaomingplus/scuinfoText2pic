@@ -7,9 +7,6 @@ nginx:
     volumes:
       - ./opt:/opt
 
-
-
-
 php:
     build: ./php
     ports:

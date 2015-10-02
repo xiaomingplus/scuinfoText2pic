@@ -1,24 +1,24 @@
 [
     {
         "name": "dsgygb/text2pic",
-        "version": "v1.2.2",
-        "version_normalized": "1.2.2.0",
+        "version": "v1.2.5",
+        "version_normalized": "1.2.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/dsgygb/text2pic.git",
-            "reference": "80fcd9b86b292150830981deb30e1ae7a8738b1e"
+            "reference": "9d12bbc1f861868a274b6ba50041a26976b506be"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/dsgygb/text2pic/zipball/80fcd9b86b292150830981deb30e1ae7a8738b1e",
-            "reference": "80fcd9b86b292150830981deb30e1ae7a8738b1e",
+            "url": "https://api.github.com/repos/dsgygb/text2pic/zipball/9d12bbc1f861868a274b6ba50041a26976b506be",
+            "reference": "9d12bbc1f861868a274b6ba50041a26976b506be",
             "shasum": ""
         },
         "require": {
             "ext-gd": "*",
             "php": ">=5.3.0"
         },
-        "time": "2015-10-01 07:32:16",
+        "time": "2015-10-02 07:01:20",
         "type": "library",
         "extra": {
             "branch-alias": {
