@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "dsgygb/text2pic",
-            "version": "v1.2.8",
+            "version": "v1.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dsgygb/text2pic.git",
-                "reference": "fb04237b7408b75d4b3b7daeca56ac3323f180d6"
+                "reference": "e86b61e87dcd3e9f339d437c738b9a1674fc485d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dsgygb/text2pic/zipball/fb04237b7408b75d4b3b7daeca56ac3323f180d6",
-                "reference": "fb04237b7408b75d4b3b7daeca56ac3323f180d6",
+                "url": "https://api.github.com/repos/dsgygb/text2pic/zipball/e86b61e87dcd3e9f339d437c738b9a1674fc485d",
+                "reference": "e86b61e87dcd3e9f339d437c738b9a1674fc485d",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "text2pic",
                 "文字生成图片"
             ],
-            "time": "2015-10-02 11:02:23"
+            "time": "2015-10-02 14:32:48"
         }
     ],
     "packages-dev": [],

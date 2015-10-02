@@ -6,4 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Text2pic\\Common\\Common' => $vendorDir . '/dsgygb/text2pic/src/Common/Common.php',
+    'Text2pic\\Publics\\Path' => $vendorDir . '/dsgygb/text2pic/src/Publics/Path.php',
+    'Text2pic\\Transform' => $vendorDir . '/dsgygb/text2pic/src/Transform.php',
 );
