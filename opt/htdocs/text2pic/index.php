@@ -7,8 +7,7 @@ require_once('./upyun-php-sdk/upyun.class.php');
 if(isset($_POST['text'])){
 $text=isset($_POST['text'])?$_POST['text']:"";
 $footer = isset($_POST['footer'])?$_POST['footer']:"";
-
-$by = '由scuinfo.com根据热门程度自动生成，并不一定同意此观点! '."\n".'微信关注scuinfo后可直接匿名发布内容到scuinfo.com';
+$by = isset($_POST['by'])?$_POST['by']:'由scuinfo.com根据热门程度自动生成，并不一定同意此观点! '."\n".'微信关注scuinfo后可直接匿名发布内容到scuinfo.com';
 $transform = new Text2pic\Transform($by,'./uploads','http://docker.dev/uploads');
 $result = $transform->generate($text,$footer);
 
@@ -56,4 +55,3 @@ try {
 		);
       echo json_encode($result,JSON_UNESCAPED_UNICODE);
 }
-
