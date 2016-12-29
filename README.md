@@ -26,6 +26,4 @@
 
 ok，一切皆已完成。
 
-
-
-
+在后台启动: ```docker-compose up -d```
